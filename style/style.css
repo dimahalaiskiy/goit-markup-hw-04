@@ -140,7 +140,7 @@ ul,ol {
     margin-left: auto;
 }
 
-.social-links-contakt-list-item {
+.social-links-contakt-list-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -149,9 +149,11 @@ ul,ol {
     margin-left: 50px;
 }
 
-.social-svg-link {
-   height: 16px;
-   margin-right: 10px;
+.social-contakt-icon {
+    justify-content: center;
+    align-items: center;
+    height: 16px;
+    margin-right: 10px;
 }
 
 .social-contakt-icon {
