@@ -1,0 +1,468 @@
+
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --main-color: #212121; 
+    --paragraph-color: #757575;
+    --focus-color: #2196F3;
+}
+body {
+    font-family: var(--main-font);
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
+/******* MAIN COMPONENTS *******/
+.btn-style {
+    background: var(--focus-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/******* END MAIN COMPONENTS *******/
+
+/******* HEADER *******/
+
+
+.header-menu {
+    background-color: #FFFFFF;
+    
+}
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.logo-style {
+    margin-right: 95px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.text-logo-style {
+    color: var(--focus-color);
+}
+
+.social-links-list {
+    display: flex;
+}
+.social-contakt-list {
+    display: flex;
+}
+
+.social-links-list-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.social-links-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+
+
+.social-links-list-link:hover,
+.social-links-list-link:focus,
+.is-current {
+    color: var(--focus-color);
+}
+
+.social-contakt-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--paragraph-color);
+}
+
+.social-contakt-list-link:hover,
+.social-contakt-list-link:focus {
+    color: var(--focus-color);
+}
+
+.social-contakt-list {
+    margin-left: auto;
+}
+
+.social-links-contakt-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-links-contakt-list-item:not(:first-child) {
+    margin-left: 50px;
+}
+
+.social-svg-link {
+   height: 16px;
+   margin-right: 10px;
+}
+
+.social-contakt-icon {
+    fill: var(--paragraph-color);
+}
+.social-contakt-icon:hover,
+.social-contakt-icon:focus {
+    fill: var(--focus-color);
+}
+
+/******* END HEADER *******/
+
+/******* HERO *******/
+
+.conteiner-hero {
+    background-color: #2F303A;
+    margin: 0 auto;
+}
+
+.container-hero-heading {
+    padding-top: 200px;
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+
+.hero-heading {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.hero-bottom {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+/******* END HERO *******/
+
+/******* BENEFITS *******/
+
+.container-benefits { 
+    margin: 0 auto;
+}
+
+.benefits-list {
+    margin-left: -30px;
+    padding-top: 94px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.benefits-list-heading {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.benefits-paragraph {
+    max-width: 270px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-color);
+}
+
+.benefits-heading {
+    margin-top: 94px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.benefits-img-list {
+    margin-top: 50px;
+    margin-left: -30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 94px;
+}
+
+.benefits-list-item {
+    margin-top: 0px;
+    margin-left: 30px;
+    display: block;
+}
+
+/******* END BENEFITS *******/
+
+
+/******* OUR TEAM *******/
+
+.container-stuff {
+    background-color: #F5F4FA;
+    padding-top: 94px;
+}
+
+.heading-stuff {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.stuff-list {
+    margin-top: 40px;
+    margin-left: -30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 94px;
+}
+
+.stuff-list-item {
+    margin-left: 30px;
+
+}
+
+.stuff-border {
+    margin: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.stuff-heading {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.stuff-paragraph {
+    margin-top: 10px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-color);
+}
+
+/******* OUR TEAM *******/
+
+/******* FOOTER *******/
+
+.footer-container {
+    background-color: #2F303A;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo-style {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-text-logo-style {
+    color: var(--focus-color);
+}
+
+
+.footer-list-item {
+    margin-top: 18px;
+}
+
+.footer-list-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-list-link:hover,
+.footer-list-link:focus {
+    color: var(--focus-color);
+}
+
+.footer-list-link-adress {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.77;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+} 
+
+.footer-list-link-adress:hover,
+.footer-list-link-adress:focus {
+    color: var(--focus-color);
+}
+.footer-list-link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/******* END FOOTER *******/
+
+/******* PAGE !PORTFOLIO! *******/ 
+
+
+.header-border {
+    border-top: 1px solid #ECECEC;
+}
+
+.catalog-button-list {
+    padding-top: 94px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    max-width: 516;
+}
+
+.catalog-button-list-item {
+    margin-left: 8px;
+}
+.portfolio-cataloge-buttom {
+    padding: 6px 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.65;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    border: none;
+    background: #F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.portfolio-cataloge-buttom:hover,
+.portfolio-cataloge-buttom:focus {
+    background: var(--focus-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: #FFFFFF;
+}
+
+.catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+    padding-bottom: 94px;
+}
+
+.catalog-list-item {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.catalog-border-list-item {
+    margin: 0;
+}
+
+.catalog-border-list-item-img {
+    display: block;
+}
+
+.catalog-list-item-text {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-top: none;
+    padding: 20px 24px;
+}
+
+.catalog-list-item-heading {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+
+.catalog-list-item-paragraph {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-color);
+}
+
+/******* END PAGE !PORTFOLIO! *******/ 
