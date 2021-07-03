@@ -315,7 +315,6 @@ ul,ol {
 
 .stuff-paragraph {
     margin-top: 10px;
-    padding-bottom: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -323,6 +322,46 @@ ul,ol {
     letter-spacing: 0.03em;
     color: var(--paragraph-color);
 }
+
+.stuff-social-icon-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    padding-bottom: 30px;
+}
+
+.stuff-social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.stuff-social-item-icon {
+    fill: #AFB1B8;
+    width: 20px;
+    height: 20px;
+}
+
+.stuff-social-icon:hover,
+.stuff-social-icon:focus {
+    background-color: #2196F3;
+}
+
+.stuff-social-icon:hover .stuff-social-item-icon,
+.stuff-social-icon:focus .stuff-social-item-icon {
+    fill: #ffffff;
+}
+
+
+
+
+
+
 
 /******* OUR TEAM *******/
 
