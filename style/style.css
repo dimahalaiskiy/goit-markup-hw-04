@@ -140,7 +140,7 @@ ul,ol {
     margin-left: auto;
 }
 
-.social-links-contakt-list-link {
+.social-contakt-list-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,9 +150,6 @@ ul,ol {
 }
 
 .social-contakt-icon {
-    justify-content: center;
-    align-items: center;
-    height: 16px;
     margin-right: 10px;
 }
 
@@ -214,6 +211,7 @@ ul,ol {
 }
 
 .benefits-list-heading {
+    margin-top: 30px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -254,6 +252,16 @@ ul,ol {
     margin-top: 0px;
     margin-left: 30px;
     display: block;
+}
+
+.benefits-list-item-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
 }
 
 /******* END BENEFITS *******/
