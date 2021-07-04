@@ -327,8 +327,13 @@ ul,ol {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -10px;
     margin-top: 16px;
     padding-bottom: 30px;
+}
+
+.stuff-social-icon-item {
+    margin-left: 10px
 }
 
 .stuff-social-icon {
@@ -357,13 +362,66 @@ ul,ol {
     fill: #ffffff;
 }
 
+/******* END OUR TEAM *******/
 
+/******* OUR CLIENTS *******/
 
+.our-clients {
+    margin: 0 auto;
+}
 
+.our-clients-heading {
+    padding-top: 94px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
 
+.our-clients-list {
+    padding-bottom: 94px;
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    margin-left: -30px;
+    
+}
 
+.our-clients-list-item{
+    margin-top: 30px;
+    margin-left: 30px;
 
-/******* OUR TEAM *******/
+}
+
+.our-clients-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.our-clients-icon-style {
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+}
+
+.our-clients-list-link:hover,
+.our-clients-list-link:focus {
+    border-color: #2196F3;
+}
+
+.our-clients-list-link:hover .our-clients-icon-style, 
+.our-clients-list-link:focus .our-clients-icon-style {
+    fill: #2196F3;
+}
+
 
 /******* FOOTER *******/
 
@@ -374,6 +432,25 @@ ul,ol {
     padding-bottom: 60px;
     display: flex;
     flex-direction: column;
+}
+
+.footer-list {
+    display: flex;
+    margin-left: -70px;
+}
+
+.footer-list-item {
+    margin-left: 70px;
+}
+
+.footer-paragraph {
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .footer-logo-style {
@@ -391,11 +468,11 @@ ul,ol {
 }
 
 
-.footer-list-item {
+.footer-contact-list-item {
     margin-top: 18px;
 }
 
-.footer-list-link {
+.footer-contact-list-link {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -403,8 +480,8 @@ ul,ol {
     color: #FFFFFF;
 }
 
-.footer-list-link:hover,
-.footer-list-link:focus {
+.footer-contact-list-link:hover,
+.footer-contact-list-link:focus {
     color: var(--focus-color);
 }
 
@@ -420,12 +497,46 @@ ul,ol {
 .footer-list-link-adress:focus {
     color: var(--focus-color);
 }
-.footer-list-link{
+.footer-contact-list-link{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-social-icon-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.footer-social-icon-item {
+    margin-left: 10px;
+}
+
+.footer-social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-item-icon {
+    fill: #FFFFFF;
+    width: 20px;
+    height: 20px;
+}
+
+.footer-social-icon:hover,
+.footer-social-icon:focus {
+    background-color: #2196F3;
 }
 
 /******* END FOOTER *******/
