@@ -10,6 +10,11 @@ body {
     margin: 0;
 }
 
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
 h1,
 h2,
 h3,
@@ -594,16 +599,15 @@ ul,ol {
 }
 
 .catalog-border-list-item {
-    display: block;
     margin: 0;
 }
 
-.catalog-border-list-item:hover,
-.catalog-border-list-item:focus {
-    cursor: pointer;
+.catalog-list-link:hover,
+.catalog-list-link:focus {
     display: block;
-    border: 1px solid #EEEEEE;
+    cursor: pointer;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
 }
 
 
@@ -633,6 +637,10 @@ ul,ol {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--paragraph-color);
+}
+
+.catalog-list-link {
+    text-decoration: none;
 }
 
 /******* END PAGE !PORTFOLIO! *******/ 
