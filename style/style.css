@@ -159,11 +159,7 @@ ul,ol {
 }
 
 .social-contakt-icon {
-    fill: var(--paragraph-color);
-}
-.social-contakt-icon:hover,
-.social-contakt-icon:focus {
-    fill: var(--focus-color);
+    fill: currentColor;
 }
 
 /******* END HEADER *******/
