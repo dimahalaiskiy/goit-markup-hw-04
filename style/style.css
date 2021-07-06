@@ -167,8 +167,13 @@ ul,ol {
 /******* HERO *******/
 
 .conteiner-hero {
-    background-color: #2F303A;
+    max-width: 1600px;
     margin: 0 auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-color: #2F303A;
+    background-position: center;
+    background-size: cover;
 }
 
 .container-hero-heading {
@@ -416,6 +421,7 @@ ul,ol {
 .our-clients-list-link:hover,
 .our-clients-list-link:focus {
     border-color: #2196F3;
+    cursor: pointer;
 }
 
 .our-clients-list-link:hover .our-clients-icon-style, 
